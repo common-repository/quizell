@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+
+* {
+    --quizell-primary: #4D1B7E;
+}
+
+.button-clr {
+    background-color: var(--quizell-primary);
+    color: #fff;
+}
+
+.button-clr:hover {
+    color: #fff;
+}
+
+.text-clr {
+    color: var(--quizell-primary);
+}
+
+.text-clr:hover {
+    color: var(--quizell-primary);
+}
+
+.img-size {
+    width: 180px;
+    height: 40px;
+}
+
+.font-size {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.input-form-control,.input-form-control:focus {
+    outline: none!important;
+    border: none!important;
+    width: 100%;
+    box-shadow:none!important;
+}
+
+.custom-input {
+    border: 1px solid #dedede;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background: #fff;
+    display: flex;
+    padding: 8px 22px;
+    align-items: center;
+    gap: 10px;
+}
+.width {
+    width: 70%;
+    min-width: 400px;
+}
+.custom_cta_button_holder {
+    border-radius: 11px;
+    display: grid;
+    background: #F0F0F2;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 25px 0px;
+}
+button#submit-btn-js, #login_butntssd,#verify-submit-btn {
+    width: 100%;
+    margin-top: 15px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.custom_cta_button_holder a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 60px;
+    margin: 7px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .2s;
+    transition-property: all;
+}
+.custom_cta_button_holder a.active,.custom_cta_button_holder a:hover{
+    background: #fff;
+    box-shadow: 0px 5px 4px 0px #0000003b;
+    color: #7A7A7A !important;
+}
+.tp_controller {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px
+}
+.tp_controller input, .tp_controller input:focus {
+    /* border-color: #2187D1 !important; */
+    border: 2px solid #2187D1 !important;
+    color: #2187D1;
+    /* padding: 0 !important; */
+    /* width: 40px; */
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+.form-group {
+    margin-bottom: 14px;
+}
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-top: 0px;
+}
+button#submit-btn-js:hover,#login_butntssd:hover,#verify-submit-btn:hover {
+    border: 1px solid;
+    color: inherit !important;
+}
